@@ -1,0 +1,13 @@
+---
+---
+
+@import "bootstrap/scss/functions";
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+.content {
+  font-size: $custom-font-size;
+}
+
+h1, h2, h3 {font-family: 'crimson text'}
+.post {margin-top: 50px;margin-bottom: 50px}

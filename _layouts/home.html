@@ -2,18 +2,23 @@
 layout: default
 ---
 
-<div class="home">
+<div class="container" id="home">
   {%- if page.title -%}
+  <div class="row">
     <h1 class="page-heading">{{ page.title }}</h1>
+  </div>
   {%- endif -%}
 
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
+  <div class="row">
+    <div class="col-sm-12">
+    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2></div>
+</div>
+    <div class="row">
       {%- for post in site.posts -%}
-      <li>
+      <div class="col-sm-6 col-md-4 col-lg-3 post">
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -24,11 +29,10 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+      </div>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+    {%- endfor -%}
+    </div>
   {%- endif -%}
 
 </div>
