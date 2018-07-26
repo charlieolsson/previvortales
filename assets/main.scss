@@ -10,22 +10,42 @@
 }
 
 h1, h2, h3 {font-family: 'Vidaloka'}
-.post {margin-top: 50px;margin-bottom: 50px; text-align: center;}
 
-.post {
-	a {color:#000; }
-	a {
+.post {margin-top: 50px;margin-bottom: 50px; text-align: center;
+	a {color:#000;
 		&:after {
 			content: '';
 		    display: block;
 		    width: 25px;
 		    height: 1px;
 		    background-color: #888;
-		    margin: 20px 0 0;
+		    margin: 2rem 0 0;
 	        margin-left: auto;
 	    	margin-right: auto;
 	    	}
+	    &:hover{
+			text-decoration: none;
+			img {opacity: 0.8;}
+			.underline { background-size: 100% 100%;
+				}
+			}
 	    }
 	.post-meta {color: #bbb; font-size: 0.8rem;}
-	h3 {margin-top: 1rem;font-size: 24px;letter-spacing: 1px;}
+	h3 {
+		margin-top: 1rem;
+		font-size: 24px;
+		letter-spacing: 1px;
+		transition: background-size .4s ease;
+  		background: linear-gradient(to bottom, transparent 62%, #b1f7f4 0) center center/0% 75% no-repeat;
+  		padding: 0 6px 2px 6px;
+  		cursor: pointer;
+      	color: rgba(80, 89, 113, 0.7);
+    	letter-spacing: .08rem;
+  	}
+  	.underline {width: calc(100%);
+  background-image: linear-gradient(transparent calc(100% - 10px), #b4fff8 10px);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size 0.3s;}
+	img {margin-bottom: 1rem;}
 }
