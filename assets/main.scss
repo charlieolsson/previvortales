@@ -5,6 +5,7 @@
 @import "variables";
 @import "bootstrap/scss/bootstrap";
 
+body {padding-top: 4.5rem;}
 .content {
   font-size: $custom-font-size;
 }
@@ -39,7 +40,7 @@ h1, h2, h3 {font-family: 'Vidaloka'}
   		background: linear-gradient(to bottom, transparent 62%, #b1f7f4 0) center center/0% 75% no-repeat;
   		padding: 0 6px 2px 6px;
   		cursor: pointer;
-      	color: rgba(80, 89, 113, 0.7);
+      	color: #696969;
     	letter-spacing: .08rem;
   	}
   	.underline {width: calc(100%);
