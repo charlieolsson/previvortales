@@ -50,3 +50,12 @@ h1, h2, h3 {font-family: 'Vidaloka'}
 	img {margin-bottom: 1rem;}
 }
 .navbar-light .navbar-toggler {border: none;}
+.social-media-list { list-style: none; margin-left: 0;
+    .svg-icon {
+    	width: 16px;
+	    height: 16px;
+	    display: inline-block;
+	    fill: #000000;
+	    vertical-align: text-top;
+		}
+}
