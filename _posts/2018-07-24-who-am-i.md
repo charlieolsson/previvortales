@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Who am I?
+thumbnail: /images/uploads/750x1120.png
 ---
 Hi, I'm Eve.
 
