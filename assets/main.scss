@@ -10,4 +10,22 @@
 }
 
 h1, h2, h3 {font-family: 'crimson text'}
-.post {margin-top: 50px;margin-bottom: 50px}
+.post {margin-top: 50px;margin-bottom: 50px; text-align: center;
+
+}
+
+.post {
+	a {color:#000; }
+	a {
+		&:after {content: '';
+    display: block;
+    width: 25px;
+    height: 1px;
+    background-color: #888;
+    margin: 20px 0 0;
+        margin-left: auto;
+    margin-right: auto; }}
+	.post-meta {color: #bbb; font-size: 0.8rem;}
+	h3 {margin-top: 1rem;}
+
+}
