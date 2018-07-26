@@ -7,7 +7,7 @@
 
 body {padding-top: 4.5rem;}
 h1, h2, h3 {font-family: 'Vidaloka'}
-.main-nav {padding: 1.5rem 0;}
+.main-nav {padding: 2rem 0;}
 .content {font-size: $custom-font-size;}
 .navbar-brand {font-family: 'Playfair Display'; font-weight: bold; font-size: 26px;
 	span {color:#4dafbc; }
@@ -49,3 +49,4 @@ h1, h2, h3 {font-family: 'Vidaloka'}
 	  	}
 	img {margin-bottom: 1rem;}
 }
+.navbar-light .navbar-toggler {border: none;}
