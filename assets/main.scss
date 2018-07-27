@@ -7,18 +7,22 @@
 
 $color-background: #F5F5F5;
 $color-main: #000000;
-$color-active: #FFF;
-$color-link: #FFF;
+$color-active: #4dafbc;
+$color-link: #4dafbc;
+$color-hover: #c4e8ec;
 $button-height: 27px;
 $button-width: 30px;
+$heading-fonts: 'Playfair Display';
 
 
-body {padding-top: 4.5rem;}
-h1, h2, h3 {font-family: 'Vidaloka'}
+main {padding-top: 4.5rem;}
+h1, h2, h3 {font-family: $heading-fonts}
+p {font-family: 'helvetica', 'open sans'; font-size: 1rem;}
 .main-nav {padding: 2rem 0;}
 .content {font-size: $custom-font-size;}
-.navbar-brand {font-family: 'Playfair Display'; font-weight: bold; font-size: 26px;
-	span {color:#4dafbc; }
+.navbar-nav {z-index: 100;}
+.navbar-brand {font-family: $heading-fonts; font-weight: bold; font-size: 26px;
+	span {color:$color-link; }
 	}
 .post {margin-top: 50px;margin-bottom: 50px; text-align: center;
 	a {color:#000;
@@ -50,7 +54,7 @@ h1, h2, h3 {font-family: 'Vidaloka'}
   		}
   	.underline {
   		width: calc(100%);
-	  	background-image: linear-gradient(transparent calc(100% - 10px), #c4e8ec 10px);
+	  	background-image: linear-gradient(transparent calc(100% - 10px), $color-hover 10px);
 	  	background-repeat: no-repeat;
 	  	background-size: 0% 100%;
 	  	transition: background-size 0.3s;
@@ -68,7 +72,7 @@ h1, h2, h3 {font-family: 'Vidaloka'}
 		}
 }
 
-.button_container {
+button.button_container {
   height: $button-height;
   width: $button-width;
   cursor: pointer;
@@ -81,9 +85,15 @@ h1, h2, h3 {font-family: 'Vidaloka'}
     opacity: .7;
   }
 
+  &:focus {
+    border: none;
+    text-decoration: none;
+    outline: none;
+  }
+
   &.active {
     .top {
-      transform: translateY(11px) translateX(0) rotate(45deg);
+      transform: translateY(3px) translateX(0) rotate(45deg);
       background: $color-active;
     }
     .middle {
@@ -113,6 +123,120 @@ h1, h2, h3 {font-family: 'Vidaloka'}
 
     &:nth-of-type(3) {
       top: 22px;
+    }
+  }
+}
+.overlay {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+
+  .row {
+    padding-top: 3rem;
+  }
+
+  &.open {
+    opacity: .9;
+    visibility: visible;
+    height: 100%;
+
+    li {
+      animation: fadeInRight .5s ease forwards;
+      animation-delay: .35s;
+
+      &:nth-of-type(2) {
+        animation-delay: .4s;
+      }
+      &:nth-of-type(3) {
+        animation-delay: .45s;
+      }
+      &:nth-of-type(4) {
+        animation-delay: .50s;
+      }
+    }
+  }
+  nav {
+    position: relative;
+    height: 70%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+    height: 100%;
+
+    li {
+      display: block;
+      height: 25%;
+      height: calc(100% / 4);
+      min-height: 50px;
+      position: relative;
+      opacity: 0;
+
+      a {
+        display: block;
+        position: relative;
+        color: $color-link;
+        text-decoration: none;
+        overflow: hidden;
+        font-family: $heading-fonts;
+        font-size: 1.5rem;
+
+        &:hover:after,
+         &:focus:after,
+         &:active:after {
+           width: 100%;
+         }
+
+        &:after {
+          content: '';
+          position: absolute;
+          z-index: -1;
+          bottom: 18%;
+          left: 50%;
+          width: 0%;
+          transform: translateX(-50%);
+          height: 10px;
+          background: $color-hover;
+          transition: .3s;
+        }
+      }
+    }
+  }
+  #bio {animation: fadeInRight .5s ease forwards;animation-delay: .35s;opacity: 0;
+  p {max-width: 300px;
+    display: inline-block;}
+  img {padding:1rem}
+  h3 {padding: 1rem}
+}
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    left: 20%;
+  }
+  100% {
+    opacity: 1;
+    left: 0;
+  }
+}
+footer {padding: 1rem; background: #eee; text-align: center; margin-top: 2rem;
+  p {color: $color-main; margin: 0px;font-family: $heading-fonts; font-size: 1rem;
+    a { color: $color-link;
+      &hover{ color: $color-hover;}
     }
   }
 }
