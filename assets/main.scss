@@ -12,17 +12,17 @@ $color-link: #4dafbc;
 $color-hover: #c4e8ec;
 $button-height: 27px;
 $button-width: 30px;
-$heading-fonts: 'Playfair Display';
+$heading-fonts: 'Playfair Display', 'impact', serif;
+$paragraph-fonts: 'Quicksand','arial', san serif;
 
 
 main {padding-top: 4.5rem;}
 h1, h2, h3 {font-family: $heading-fonts}
-p {font-family: 'helvetica', 'open sans'; font-size: 1rem;}
+p, span, a {font-family: $paragraph-fonts; font-size: 1rem;}
 .main-nav {padding: 2rem 0;}
-.content {font-size: $custom-font-size;}
 .navbar-nav {z-index: 100;}
 .navbar-brand {font-family: $heading-fonts; font-weight: bold; font-size: 26px;
-	span {color:$color-link; }
+	span {color:$color-link;font-family: $heading-fonts;font-size: 26px }
 	}
 .post {margin-top: 50px;margin-bottom: 50px; text-align: center;
 	a {color:#000;
@@ -31,7 +31,7 @@ p {font-family: 'helvetica', 'open sans'; font-size: 1rem;}
 			display: block;
 			width: 25px;
 			height: 1px;
-			background-color: #888;
+			background-color: $color-main;
 			margin: 2rem 0 0;
 			margin-left: auto;
 			margin-right: auto;
@@ -39,18 +39,16 @@ p {font-family: 'helvetica', 'open sans'; font-size: 1rem;}
 		&:hover{
 			text-decoration: none;
 			img {opacity: 0.8;}
-			.underline { background-size: 100% 100%;
-				}
+			.underline { background-size: 100% 100%;}
 			}
 		}
 	.post-meta {color: #bbb; font-size: 0.8rem;}
 	h3 {
 		margin-top: 1rem;
-		font-size: 24px;
-  		padding: 0 6px 2px 6px;
-  		cursor: pointer;
+  	padding: 0 6px 2px 6px;
+  	cursor: pointer;
 		color: #000000;
-    	letter-spacing: .08rem;
+      span {font-family: $heading-fonts;font-size: 1.7rem;}
   		}
   	.underline {
   		width: calc(100%);
@@ -239,4 +237,20 @@ footer {padding: 1rem; background: #eee; text-align: center; margin-top: 2rem;
       &hover{ color: $color-hover;}
     }
   }
+}
+article { margin-top:50px; padding-bottom:3rem;
+  h1 { color:$color-main;
+    time {color: $color-link;}
+    &:after {
+      content: '';
+      display: block;
+      width: 25px;
+      height: 1px;
+      background-color: $color-main;
+      margin: 2rem 0 0;
+      margin-left: auto;
+      margin-right: auto;
+      }
+    }
+  header { margin-bottom:3rem;}
 }

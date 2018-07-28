@@ -4,28 +4,24 @@ layout: default
 <article class="container" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="row justify-content-center">
-    <div class="col-sm-8"><p class="post-meta">
-          <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <div class="col-sm-5 text-center">
+      <h1 class="post-title p-name" itemprop="name headline"><time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d" -%}
             {{ page.date | date: date_format }}
-          </time>
-          {%- if page.author -%}
-            • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-          {%- endif -%}</p>
-      <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-
+          </time>{{ page.title | escape }}</h1>
     </div>
+    <figure>
+      <img src="{{ page.banner | escape }}">
+    </figure>
   </header>
 
   <div class="row justify-content-center" itemprop="articleBody">
     <div class="col-sm-8">
-    {{ content }}
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</div>
-</div>
+      {{ content }}
+      {%- if site.disqus.shortname -%}
+      {%- include disqus_comments.html -%}
+      {%- endif -%}
+      <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+    </div>
+  </div>
 </article>
