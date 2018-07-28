@@ -16,7 +16,7 @@ $heading-fonts: 'Playfair Display', 'impact', serif;
 $paragraph-fonts: 'Quicksand','arial', san serif;
 
 
-main {padding-top: 4.5rem;}
+main {padding-top: 70px;}
 h1, h2, h3 {font-family: $heading-fonts}
 p, span, a {font-family: $paragraph-fonts; font-size: 1rem;}
 .main-nav {padding: 2rem 0;}
@@ -254,3 +254,4 @@ article { margin-top:50px; padding-bottom:3rem;
     }
   header { margin-bottom:3rem;}
 }
+.banner {padding: 6px; margin-top:40px;overflow:hidden}

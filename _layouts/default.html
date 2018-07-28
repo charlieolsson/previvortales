@@ -18,7 +18,15 @@
     $('#toggle').click(function() {
    $(this).toggleClass('active');
    $('#navbarCollapse').toggleClass('open');
-  });</script>
+  });
+       var WindowsSize=function(){
+              var h=$(window).height()-116,
+                  w=$(window).width();
+              $("#winSize").css("height", +h+"px");
+          };
+         $(document).ready(WindowsSize);
+         $(window).resize(WindowsSize);
+      </script>
     {%- include footer.html -%}
 
   </body>
