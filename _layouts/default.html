@@ -20,9 +20,9 @@
    $('#navbarCollapse').toggleClass('open');
   });
        var WindowsSize=function(){
-              var h=$(window).height()-116,
+              var h=$(window).height()-130,
                   w=$(window).width();
-              $("#winSize").css("height", +h+"px");
+              $("#winSize").css({"height": +h+"px", "background-image": "url('{{ page.banner | escape }}')"});
           };
          $(document).ready(WindowsSize);
          $(window).resize(WindowsSize);
