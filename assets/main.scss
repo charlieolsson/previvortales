@@ -239,7 +239,7 @@ footer {padding: 1rem; background: #eee; text-align: center; margin-top: 2rem;
   }
 }
 article { margin-top:50px; padding-bottom:3rem;
-  h1 { color:$color-main; background: #fff; padding:20px 0;
+  h1 { color:$color-main; background: #fff; padding:20px;
     time {color: $color-link;}
     &:after {
       content: '';
@@ -252,7 +252,7 @@ article { margin-top:50px; padding-bottom:3rem;
       margin-right: auto;
       }
     }
-  .banner {margin:10px;overflow:hidden;background-size:cover; position:relative;
+  .banner {margin:10px;overflow:hidden;background-size:cover; position:relative; background-position: center center;
     .container {position: absolute;
     top: 50%;
     left: 50%;
