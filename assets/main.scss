@@ -57,7 +57,7 @@ p, span, a, li {font-family: $paragraph-fonts; font-size: 1rem;}
 	  	background-size: 0% 100%;
 	  	transition: background-size 0.3s;
 	  	}
-	img {margin-bottom: 1rem;}
+	img {margin-bottom: 1rem; min-width:100% }
 }
 .navbar-light .navbar-toggler {border: none;}
 .social-media-list { list-style: none; margin-left: 0;
