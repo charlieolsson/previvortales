@@ -3,11 +3,12 @@
   <div class="row justify-content-sm-center">
     <div class="col-sm-12">
         <p>{%- if site.title -%}
-        {{ site.title | escape }}&nbsp;&nbsp;&nbsp;&nbsp;
+        {{ site.title | escape }}&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy; 2018
         {%- endif -%}
         {%- if site.email -%}
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>&nbsp;&nbsp;&nbsp;&nbsp;Copyright &copy; 2018
-        {%- endif -%}</p>
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        {%- endif -%}
+        </p>
     </div>
   </div>
 </footer>

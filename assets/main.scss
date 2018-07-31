@@ -9,7 +9,7 @@ $color-background: #F5F5F5;
 $color-main: #000000;
 $color-active: #4dafbc;
 $color-link: #4dafbc;
-$color-hover: #c4e8ec;
+$color-hover: #7fdae6;
 $button-height: 27px;
 $button-width: 30px;
 $heading-fonts: 'Playfair Display', 'impact', serif;
@@ -18,7 +18,7 @@ $paragraph-fonts: 'Quicksand','arial', san serif;
 
 main {padding-top: 70px;}
 h1, h2, h3 {font-family: $heading-fonts}
-p, span, a {font-family: $paragraph-fonts; font-size: 1rem;}
+p, span, a, li {font-family: $paragraph-fonts; font-size: 1rem;}
 .main-nav {padding: 2rem 0;}
 .navbar-nav {z-index: 100;}
 .navbar-brand {font-family: $heading-fonts; font-weight: bold; font-size: 26px;
@@ -92,7 +92,7 @@ button.button_container {
 
   &.active {
     .top {
-      transform: translateY(3px) translateX(0) rotate(45deg);
+      transform: translateY(7px) translateX(0) rotate(45deg);
       background: $color-active;
     }
     .middle {
@@ -101,20 +101,20 @@ button.button_container {
     }
 
     .bottom {
-      transform: translateY(-11px) translateX(0) rotate(-45deg);
+      transform: translateY(-7px) translateX(0) rotate(-45deg);
       background: $color-active;
     }
   }
 
   span {
-  background: $color-main;
-  border: none;
-  height: 3px;
-  margin: 4px 0;
-  width: 100%;
-  transition:  all .35s ease;
-  cursor: pointer;
-  display: block;
+    background: $color-main;
+    border: none;
+    height: 3px;
+    margin: 4px 0;
+    width: 100%;
+    transition:  all .35s ease;
+    cursor: pointer;
+    display: block;
 
     &:nth-of-type(1) {margin: 0 0 4px 0;}
 
@@ -255,6 +255,32 @@ article { margin-top:50px; padding-bottom:3rem;
       margin-right: auto;
       }
     }
+  p { padding: 0.7rem 0;
+    margin: 0;
+    line-height: 1.8rem;
+  }
+  a { color: $color-link;
+    &:hover { color: $color-hover;}
+  }
+  h3 {color: $color-link; margin: 2rem 0 1rem;}
+  h2 {margin:2rem 0 1rem;}
+  ol {margin: 1rem 0; counter-reset: item;
+    li {padding: 0.6rem 0;display: block;text-indent: -1em;line-height: 1.8rem;
+      &:before {
+        content: counter(item) ". ";
+        counter-increment: item;
+        color: $color-link;
+      }
+    }
+  }
+  ul { list-style: none;margin: 1rem 0;
+    li { padding: 0.6rem 0; text-indent: -0.6em;line-height: 1.8rem;
+      &:before {
+        content: "• ";
+        color: $color-link;
+      }
+    }
+  }
   .banner {margin:10px;overflow:hidden;background-size:cover; position:relative; background-position: center center;
     .container {position: absolute;
     top: 50%;
@@ -268,3 +294,27 @@ article { margin-top:50px; padding-bottom:3rem;
     background-color: rgba(255, 255, 255, 0.9);
 }
 .scrolled-nav {padding: 5px 0;}
+blockquote {
+  background: #fff;
+  padding: 30px;
+  p {
+  font-family: $heading-fonts;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  font-style: italic;
+  text-indent: 100px;
+  position: relative;
+  &:before{
+  content: '\201C';
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  position: absolute;
+  font-size: 150px;
+  top: 20px;
+  left: -105px;
+  color: $color-link;
+}
+}
+}
