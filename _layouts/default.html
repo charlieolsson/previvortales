@@ -17,10 +17,6 @@
   <script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | prepend: site.baseurl}}"></script>
   <script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | prepend: site.baseurl}}"></script>
   <script type="text/javascript">
-    $('#toggle').click(function() {
-   $(this).toggleClass('active');
-   $('#navbarCollapse').toggleClass('open');
-  });
        var WindowsSize=function(){
               var h=$(window).height()-130,
                   w=$(window).width();
@@ -28,33 +24,8 @@
           };
          $(document).ready(WindowsSize);
          $(window).resize(WindowsSize);
-         $(document).ready(function(){
-		  var scrollTop = 0;
-		  $(window).scroll(function(){
-		    scrollTop = $(window).scrollTop();
-		     $('.counter').html(scrollTop);
-
-		    if (scrollTop >= 100) {
-		      $('#main-menu').addClass('scrolled-nav');
-		    } else if (scrollTop < 100) {
-		      $('#main-menu').removeClass('scrolled-nav');
-		    }
-
-		  });
-
-		});
-          $(function() {
-        $('.lazy').Lazy({
-        // your configuration goes here
-        scrollDirection: 'vertical',
-        effect: 'fadeIn',
-        visibleOnly: true,
-        onError: function(element) {
-            console.log('error loading ' + element.data('src'));
-        }
-    });
-        });
-      </script>
+ </script>
+ <script type="text/javascript" src="{{'/assets/main.js' | prepend: site.baseurl}}"></script>
     {%- include footer.html -%}
 
   </body>

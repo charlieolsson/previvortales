@@ -298,23 +298,68 @@ blockquote {
   background: #fff;
   padding: 30px;
   p {
-  font-family: $heading-fonts;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 40px;
-  font-style: italic;
-  text-indent: 100px;
-  position: relative;
-  &:before{
-  content: '\201C';
-  font-family: serif;
-  font-style: normal;
-  font-weight: 700;
-  position: absolute;
-  font-size: 150px;
-  top: 20px;
-  left: -105px;
+    font-family: $heading-fonts;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    font-style: italic;
+    text-indent: 100px;
+    position: relative;
+    &:before{
+      content: '\201C';
+      font-family: serif;
+      font-style: normal;
+      font-weight: 700;
+      position: absolute;
+      font-size: 150px;
+      top: 20px;
+      left: -105px;
+      color: $color-link;
+    }
+  }
+}
+
+progress {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10000;
+  width: 100%;
+  height: .25em;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background-color: transparent;
   color: $color-link;
 }
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
 }
+
+.flat::-webkit-progress-value {
+  background-color: $color-link;
+}
+
+.flat::-moz-progress-bar {
+  background-color: $color-link;
+}
+
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: .25em;
+  display: block;
+}
+
+.progress-bar {
+  background-color: $color-link;
+  width: 50%;
+  display: block;
+  height: inherit;
 }
