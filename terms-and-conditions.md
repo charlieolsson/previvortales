@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Terms and Conditions
+title: Terms and Conditions ("Terms")
 permalink: /terms-and-conditions/
 ---
-
-<h1>Terms and Conditions ("Terms")</h1>
 
 <p>Last updated: September 30, 2018</p>
 

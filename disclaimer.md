@@ -4,8 +4,6 @@ title: Disclaimer
 permalink: /disclaimer/
 ---
 
-<h1>Disclaimer</h1>
-
 <p>Last updated: September 30, 2018</p>
 
 <p>The information contained on https://previvortales.netlify.com/ website (the "Service") is for general information purposes only.</p>
