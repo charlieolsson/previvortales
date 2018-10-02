@@ -23,6 +23,7 @@ layout: default
     <div class="row justify-content-center post-content" itemprop="articleBody">
       <div class="col-sm-8">
         {{ content }}
+        {%- include social-share.html -%}
         {%- if site.disqus.shortname -%}
         {%- include disqus_comments.html -%}
         {%- endif -%}
@@ -31,3 +32,11 @@ layout: default
     </div>
   </div>
 </article>
+<aside class="container">
+<div class="row"><div class="col-6">{% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; Previous</a>
+  {% endif %}</div>
+  <div class="col-6 text-right">{% if page.next.url %}
+      <a class="next" href="{{page.next.url}}">Next &raquo;</a>
+    {% endif %}</div></div>
+</aside>

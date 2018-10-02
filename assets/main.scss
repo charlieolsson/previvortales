@@ -12,7 +12,7 @@ $color-link: #4dafbc;
 $color-hover: #c4e8ec;
 $button-height: 27px;
 $button-width: 30px;
-$heading-fonts: 'Playfair Display', 'impact', serif;
+$heading-fonts: 'Playfair Display', 'times', serif;
 $paragraph-fonts: 'Quicksand','arial', san serif;
 
 
@@ -318,6 +318,11 @@ blockquote {
     }
   }
 }
+aside {
+  a {display: inline-block; color: $color-link; border: 1px solid $color-link; border-radius: 10px; padding: 0.5rem 1rem; transition: color .35s, border .35s;
+    &:hover {color: $color-hover; border-color: $color-hover; text-decoration: none;}
+  }
+}
 
 progress {
   position: fixed;
@@ -325,7 +330,7 @@ progress {
   top: 0;
   z-index: 10000;
   width: 100%;
-  height: .25em;
+  height: .1em;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -353,7 +358,7 @@ progress::-webkit-progress-bar {
   position: fixed;
   top: 0;
   left: 0;
-  height: .25em;
+  height: .1em;
   display: block;
 }
 
@@ -362,4 +367,10 @@ progress::-webkit-progress-bar {
   width: 50%;
   display: block;
   height: inherit;
+}
+
+.social-share-buttons {
+  a {display: inline-block; color: #fff;
+      svg {width: 16px; height: 16px;}
+    }
 }
