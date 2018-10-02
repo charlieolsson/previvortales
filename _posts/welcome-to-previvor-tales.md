@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Welcome to Previvor Tales
+title: Welcome to Previvor Talesd
 thumbnail: /images/uploads/download.jpg
 banner: /images/uploads/bannertest.jpg
 ---
