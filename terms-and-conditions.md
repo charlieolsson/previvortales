@@ -12,7 +12,7 @@ Please read these Terms and Conditions ("Terms", "Terms and Conditions") careful
 
 <h2>Disclaimer</h2>
 
-<p>Previvor Tales is a personal blog. The author is not a health or medical professional and is not writing in a professional capacity. The author is not liable for any errors or omissions on the blog, nor are they responsible for any outcomes resulting from you reading this blog/accessing this service.</p>
+<p>Previvor Tales is a personal blog. The author is not a health or medical professional and is not writing in a professional capacity. The author is not liable for any errors or omissions on the blog, nor are they responsible for any outcomes resulting from you reading this blog/accessing this service. Please see full disclaimer <a href="https://previvortales.com/disclaimer/" target="_self">here.</a></p>
 
 <h2>Links To Other Web Sites</h2>
 
