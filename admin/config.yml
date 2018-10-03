@@ -30,3 +30,24 @@ collections:
         - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Terms and Conditions Page"
+        name: "terms and conditions"
+        file: "terms-and-conditions.md"
+        fields:
+        - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Contact Page"
+        name: "contact"
+        file: "contact.md"
+        fields:
+        - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
+      - label: "Disclaimer Page"
+        name: "disclaimer"
+        file: "disclaimer.md"
+        fields:
+        - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+        - {label: "Title", name: "title", widget: "string"}
+        - {label: "Body", name: "body", widget: "markdown"}
