@@ -3,6 +3,7 @@ layout: post
 title: Welcome to Previvor Talesd
 thumbnail: /images/uploads/download.jpg
 banner: /images/uploads/bannertest.jpg
+published: true
 ---
 ## Hi, I'm Eve.
 
@@ -20,11 +21,11 @@ After dad finished his treatment, he was delivered the news that his early onset
 
 **I’m 27 years old now, and totally cancer-free.**
 
-I feel constantly grateful for the knowledge and power that I have, that my family, before me, did not. 
+I feel constantly grateful for the knowledge and power that I have, that my family, before me, did not.
 
 ## So, Lynch syndrome was it?
 
-You'd be forgiven for never having heard of Lynch syndrome. It's not particularly well known. 
+You'd be forgiven for never having heard of Lynch syndrome. It's not particularly well known.
 
 Unfortunately, it's far more common than you probably think. I recently read that about 1 in 300 people have Lynch syndrome. Yep, you read that right, _1 in 300_!
 
@@ -34,15 +35,15 @@ That's a pretty startling (and completely unacceptable) statistic for a conditio
 
 My Lynch syndrome diagnosis, along with my dad having had cancer, changed my life. I spent a lot of time studying at university about cancer, volunteered with charities, hosted fundraising events and basically wanted to be involved however and whenever I could.
 
-That has led me here. 
+That has led me here.
 
 To this website, to this blog.
 
-Because, in reality, in our world today - **this is where the magic happens**. Online and on social media. 
+Because, in reality, in our world today - **this is where the magic happens**. Online and on social media.
 
 And I'm hoping, this can be the start of something good.
 
-I  started Previvor Tales in response to two big problems I believe need addressing: 
+I  started Previvor Tales in response to two big problems I believe need addressing:
 
 ## 1. There is a big need for better support
 
@@ -56,7 +57,7 @@ How incredible it is that these wonderful support networks exist. Places to feel
 
 I'm hoping this can be the start of something.
 
-Whatever your mutation - MSH2, MSH6, BRCA1, FAP, CAD2, you are so welcome here. I'm no medical expert, and certainly not a counsellor, but I am a human being. One who is also living with this. 
+Whatever your mutation - MSH2, MSH6, BRCA1, FAP, CAD2, you are so welcome here. I'm no medical expert, and certainly not a counsellor, but I am a human being. One who is also living with this.
 
 Feeling like you're alone. Well, you're not. I'm here!
 
@@ -64,7 +65,7 @@ Feeling like you're alone. Well, you're not. I'm here!
 
 Awareness equals knowledge, knowledge equals power, and that power, saves lives!
 
-It is believed that [1-5% of bowel cancers](https://www.cancer.nsw.gov.au/understanding-cancer/cancer-in-nsw/hereditary-cancers/lynch-syndrome) and [3-5% of endometrial cancers](https://www.sgo.org/clinical-practice/guidelines/screening-for-lynch-syndrome-in-endometrial-cancer/) are Lynch syndrome-related. 
+It is believed that [1-5% of bowel cancers](https://www.cancer.nsw.gov.au/understanding-cancer/cancer-in-nsw/hereditary-cancers/lynch-syndrome) and [3-5% of endometrial cancers](https://www.sgo.org/clinical-practice/guidelines/screening-for-lynch-syndrome-in-endometrial-cancer/) are Lynch syndrome-related.
 
 _Just imagine if those people knew first._
 
