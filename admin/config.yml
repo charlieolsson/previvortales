@@ -2,11 +2,13 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
   repo: charlieolsson/previvortales
-  site_domain: previvortales.netlify.com
+  site_domain: previvortales.com
+
 media_folder: "images/uploads"
+
 collections:
   - name: "post" # Used in routes, e.g. /admin/collections/blog
-    label: "Post" # Used in the UI
+    label: "Blog" # Used in the UI
     folder: "_posts" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
