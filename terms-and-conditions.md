@@ -1,12 +1,10 @@
 ---
 layout: page
-title: Terms and Conditions ("Terms")
-permalink: /terms-and-conditions/
+title: Terms and Conditions
 ---
+_Last updated: September 30, 2018_
 
-<p>Last updated: September 30, 2018</p>
-
-<p>Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the https://previvortales.netlify.com/ website (the "Service") operated by Previvor Tales ("us", "we", or "our").</p>
+Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the https://previvortales.com/ website (the "Service") operated by Previvor Tales ("us", "we", or "our").
 
 <p>Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.</p>
 
@@ -30,13 +28,9 @@ permalink: /terms-and-conditions/
 
 <p>All provisions of the Terms which by their nature should survive termination shall survive termination, including, without limitation, ownership provisions, warranty disclaimers, indemnity and limitations of liability.</p>
 
-
-
 <h2>Governing Law</h2>
 
 <p>These Terms shall be governed and construed in accordance with the laws of Victoria, Australia, without regard to its conflict of law provisions.</p>
-
-
 
 <p>Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights. If any provision of these Terms is held to be invalid or unenforceable by a court, the remaining provisions of these Terms will remain in effect. These Terms constitute the entire agreement between us regarding our Service, and supersede and replace any prior agreements we might have between us regarding the Service.</p>
 
