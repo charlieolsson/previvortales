@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Terms and Conditions
+title: T's and C's
 ---
 _Last updated: September 30, 2018_
 
