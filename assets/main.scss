@@ -19,6 +19,7 @@ $paragraph-fonts: 'Quicksand','arial', san serif;
 main {padding-top: 70px;}
 h1, h2, h3 {font-family: $heading-fonts}
 p, span, a, li {font-family: $paragraph-fonts; font-size: 1rem;}
+img {max-width: 100%;}
 .main-nav {padding: 2rem 0;}
 .navbar-nav {z-index: 100;}
 .navbar-brand {font-family: $heading-fonts; font-weight: bold; font-size: 26px;
