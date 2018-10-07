@@ -7,6 +7,11 @@
   {%- seo -%}
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   {%- feed_meta -%}
+  {% if page.banner %}
+  <meta content="{{ page.banner | escape }}" property="og:image">
+  {% else %}
+  <meta content="/images/logo-lg.jpg" property="og:image">
+  {% endif %}
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}

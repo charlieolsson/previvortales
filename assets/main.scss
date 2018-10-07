@@ -139,7 +139,6 @@ button.button_container {
   visibility: hidden;
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden;
-
   .row {
     padding-top: 3rem;
   }
@@ -217,11 +216,10 @@ button.button_container {
       }
     }
   }
-  #bio {animation: fadeInRight .5s ease forwards;animation-delay: .35s;opacity: 0;
-  p {max-width: 300px;
-    display: inline-block;}
-  img {padding:1rem}
-  h3 {padding: 1rem}
+  #bio {animation: fadeInRight .5s ease forwards; animation-delay: .35s; opacity: 0;
+  p {max-width: 300px; display: inline-block;}
+  img {padding:1rem; border-radius: 50%; max-width: 200px;}
+  h3 {padding: 1rem;}
 }
 }
 
