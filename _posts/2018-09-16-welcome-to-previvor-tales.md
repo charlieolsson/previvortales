@@ -1,9 +1,8 @@
 ---
 layout: post
-title: Welcome to Previvor Talesd
-thumbnail: /images/uploads/download.jpg
-banner: /images/uploads/bannertest.jpg
-published: true
+title: Welcome to Previvor Tales
+thumbnail: /images/uploads/annie-spratt-326937-unsplash.jpg
+banner: /images/uploads/yuriy-kovalev-97508-unsplash.jpg
 ---
 ## Hi, I'm Eve.
 
