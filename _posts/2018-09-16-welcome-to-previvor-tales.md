@@ -3,6 +3,9 @@ layout: post
 title: Welcome to Previvor Tales
 thumbnail: /images/uploads/annie-spratt-326937-unsplash.jpg
 banner: /images/uploads/annie-spratt-326937-unsplash.jpg
+description: >-
+  I'm no one special, just your stock-standard 27 year old, and the face behind
+  Previvor Tales.
 ---
 ## Hi, I'm Eve.
 
