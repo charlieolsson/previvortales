@@ -1,5 +1,5 @@
 <url>
-	<loc>{{ site.url }}{{ page.url }}</loc>
+	<loc>{{ site.url }}{{ include.entry.url }}</loc>
 	<changefreq>monthly</changefreq>
 	<priority>0.5</priority>
 </url>
