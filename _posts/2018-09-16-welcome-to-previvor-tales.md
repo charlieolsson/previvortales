@@ -31,7 +31,7 @@ You'd be forgiven for never having heard of Lynch syndrome. It's not particularl
 
 Unfortunately, it's far more common than you probably think. I recently read that about 1 in 300 people have Lynch syndrome. Yep, you read that right, _1 in 300_!
 
-That's a pretty startling (and completely unacceptable) statistic for a condition that get little public awareness!
+That's a pretty startling (and completely unacceptable) statistic for a condition that gets such little public awareness!
 
 ## So, why start Previvor Tales?
 
@@ -49,7 +49,7 @@ I  started Previvor Tales in response to two big problems I believe need address
 
 ## 1. There is a big need for better support
 
-When I was diagnosed with Lynch syndrome, I was on my own. I had my family, but do you think that any of my year 16 year old friends had any clue what it meant to be told "you tested positive' for this genetic mutation? Even now, if it weren't for my volunteering, I wouldn't really have met anyone else affected by this. I have felt pretty isolated in this.
+When I was diagnosed with Lynch syndrome, I was on my own. I had my family, but do you think that any of my year 16 year old friends had any clue what it meant to be told "you tested positive' for this genetic mutation? Even now, if it weren't for my volunteering, I wouldn't really have met anyone else affected by this. As you can imagine, I have felt pretty isolated in this.
 
 > _And this is something I want to change. I don't want anyone else to feel as alone as I did._
 
@@ -61,7 +61,7 @@ I'm hoping this can be the start of something.
 
 Whatever your mutation - MSH2, MSH6, BRCA1, FAP, CAD2, you are so welcome here. I'm no medical expert, and certainly not a counsellor, but I am a human being. One who is also living with this.
 
-Feeling like you're alone. Well, you're not. I'm here!
+Feeling like you're alone? Well, you're not. I'm here!
 
 ## 2. There is an overwhelming lack of awareness about Lynch syndrome
 
@@ -79,6 +79,8 @@ Lynch syndrome does just that. It gives you the chance to do all of those things
 
 Lynch syndrome is a magical gift of knowledge, of insight and hopefully, the more that people become aware of this and start to look at their own families and be diagnosed, we can take a step closer toward a world where we know where people can avoid this devastating disease.
 
-So please, now that you're here, take a look around and if nothing else, I ask that you help spread awareness by sharing this page with your friends and family. It's time to save lives people!
+So please, now that you're here, take a look around and if nothing else, I ask that you help spread awareness by sharing this page with your friends and family. 
+
+It's time to save lives people!
 
 ![Eve xx](/images/uploads/eve-xx.png)
